@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        
+        <h1> Formulaire CV</h1>
+        <form method="post" id="fo" action="">
+            <div class="info">
+                
+                <fieldset>
+                    <legend>Informations Générales:</legend>
+                    <label>Nom:<br>
+                        <input type="text" name="nom" id="nom"  /></label><br>
+                    <label>Prénom:<br>
+                        <input type="text" name="Prénom"  id="Prenom" /></label><br>
+                    <label>Age:<br>
+                        <input type="text" name="Age" id="Age"  /></label><br>
+                    <label>Adresse:<br>
+                        <input type="text" name="Adresse" id="Adresse" /></label><br> 
+                    <label>email:<br>
+                        <input type="email" name="email" id="email"  /></label><br>
+                    <label> titre du CV: <br><input type="text" name="cv" id="titre" size="30" > </label><br>
+                    <label>Objectif professionnel:</label><br>
+                    <button  id="obj" name="obj" >+</button>
+            </fieldset>
+                
+            </div>
+            
+            <p><input type="text" name="titre" id="titre1"  /></label><br></p>
+                <textarea name="formation" id="for" cols="40" rows="7"></textarea>
+            <p><input type="text" name="titre" id="titre2"  /></label><br></p>
+                <textarea name="comp" id="comp" cols="40" rows="7"></textarea>
+            <p><input type="text" name="titre" id="titre3"  /></label><br></p>
+                <textarea name="ling" id="ling" cols="40" rows="7"></textarea>
+            <button id="b">valider</button>
+            </form>
+            <p id="p"></p>
+            <script src="cvjs.js">
+            </script>
+    </body>
+    
+</html>
